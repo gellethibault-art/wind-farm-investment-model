@@ -62,10 +62,6 @@ and tabular data.
 ## Repository Structure
 wind-farm-investment/
 │
-├── wind_analysis.py        # Wind resource & Weibull fitting
-├── turbine_models.py       # Power curves & Ct modelling
-├── layout_optimisation.py  # TOPFARM optimisation
-├── financial_model.xlsx    # NPV, IRR, DSCR model
-├── data/
-│   └── Wind_Data.xlsx      # Raw wind data (anonymised)
+├── wind_farm.py
+├── Wind_Data.csv
 └── README.md
